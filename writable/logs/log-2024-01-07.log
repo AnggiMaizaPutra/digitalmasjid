@@ -1,0 +1,263 @@
+INFO - 2024-01-07 14:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-07 14:26:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'status='masuk'' at line 1 in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from t...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\SEMESTER 5\web2\prak1\app\Models\ModelKasmasuk.php(43): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\SEMESTER 5\web2\prak1\app\Controllers\Kasmasuk.php(76): App\Models\Modelkasmasuk->getLaporanperperiodeperjenis('2023-12-01', '2024-01-30', 'anak Yatim')
+#5 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#10 {main}
+CRITICAL - 2024-01-07 14:26:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'status='masuk'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelKasmasuk.php(43): CodeIgniter\Database\BaseConnection->query('select * from tbl_kas_masjid where tanggal >= \'2023-12-01\' and tanggal <=\'2024-01-30\' and jenis_kas=\'anak Yatim\' status=\'masuk\'')
+ 2 APPPATH\Controllers\Kasmasuk.php(76): App\Models\Modelkasmasuk->getLaporanperperiodeperjenis('2023-12-01', '2024-01-30', 'anak Yatim')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-07 14:28:16 --> Undefined variable $jenis
+in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 31.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenis', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:29:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:29:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:29:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:29:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:33:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:33:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:34:04 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:34:04 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:34:35 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:34:35 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-07 21:38:28 --> Undefined variable $kas_masuk
+in APPPATH\Views\Kasmasuk\view_kasmasuk.php on line 91.
+ 1 APPPATH\Views\Kasmasuk\view_kasmasuk.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_masuk', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\view_kasmasuk.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\view_kasmasuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/view_kasmasuk', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(14): view('kasmasuk/view_kasmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 21:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-07 21:45:49 --> Undefined variable $kaskeluar
+in APPPATH\Views\Kasmasuk\view_kasmasuk.php on line 91.
+ 1 APPPATH\Views\Kasmasuk\view_kasmasuk.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kaskeluar', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\view_kasmasuk.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\view_kasmasuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/view_kasmasuk', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(14): view('kasmasuk/view_kasmasuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 21:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 14:50:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+WARNING - 2024-01-07 14:50:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php on line 30.
+ 1 APPPATH\Views\Kasmasuk\cetaklaporanperperiodeperjeniskas.php(30): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Kasmasuk\\cetaklaporanperperiodeperjeniskas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasuk/cetaklaporanperperiodeperjeniskas', [], true)
+ 5 APPPATH\Controllers\Kasmasuk.php(84): view('kasmasuk/cetaklaporanperperiodeperjeniskas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasuk->cetaklaporanperperiodeperjenis()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2024-01-07 14:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 14:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 21:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

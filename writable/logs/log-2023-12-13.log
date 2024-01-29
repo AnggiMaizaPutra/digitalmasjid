@@ -1,0 +1,592 @@
+INFO - 2023-12-13 05:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 05:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 05:47:10 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 05:47:59 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 05:48:00 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 05:48:12 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 05:49:21 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 06:22:18 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 06:23:08 --> Invalid file: "/registrasi/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/registrasi/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/registrasi/login', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('/registrasi/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:30:12 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:30:12 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:30:24 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:30:24 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:32:19 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:32:19 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:32:44 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:32:44 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:32:46 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:32:46 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-13 06:32:55 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Login.php(20): App\Models\ModelUser->cek_login(NULL)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-12-13 06:32:55 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `user_name` IS NULL', [], false)
+ 2 APPPATH\Models\ModelUser.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Login.php(20): App\Models\ModelUser->cek_login(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 06:33:28 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 06:34:59 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 06:35:07 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->ceklogin()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 06:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 07:19:32 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:20:35 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:20:38 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:23:14 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 63.
+ 1 APPPATH\Views\User\view_user.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:23:51 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 63.
+ 1 APPPATH\Views\User\view_user.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:23:52 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 63.
+ 1 APPPATH\Views\User\view_user.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:24:03 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 63.
+ 1 APPPATH\Views\User\view_user.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:25:58 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:27:14 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:27:24 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:28:02 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:30:16 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:32:45 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:32:47 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:33:39 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:33:57 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 07:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 07:37:35 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-12-13 07:39:39 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 07:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 07:57:19 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 07:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 07:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 08:00:51 --> Undefined variable $role
+in APPPATH\Views\User\view_user.php on line 62.
+ 1 APPPATH\Views\User\view_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+INFO - 2023-12-13 08:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 08:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

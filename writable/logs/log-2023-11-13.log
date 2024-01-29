@@ -1,0 +1,41 @@
+ERROR - 2023-11-13 01:10:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\web2\prak1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\web2\prak1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbsimrs01', 3306, '', 0)
+#1 D:\web2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\web2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\web2\prak1\app\Models\Dokter_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web2\prak1\app\Controllers\Dokter.php(11): App\Models\Dokter_model->getDokter()
+#6 D:\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Dokter->index()
+#7 D:\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#8 D:\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\web2\\prak1\\p...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\web2\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\web2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\web2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\web2\prak1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\web2\prak1\app\Models\Dokter_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\web2\prak1\app\Controllers\Dokter.php(11): App\Models\Dokter_model->getDokter()
+#5 D:\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Dokter->index()
+#6 D:\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#7 D:\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\web2\\prak1\\p...')
+#10 {main}
+CRITICAL - 2023-11-13 01:10:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dokter`', [], false)
+ 3 APPPATH\Models\Dokter_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Dokter.php(11): App\Models\Dokter_model->getDokter()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dokter->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web2\\prak1\\public\\index.php')

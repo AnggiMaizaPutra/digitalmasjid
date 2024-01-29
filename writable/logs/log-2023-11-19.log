@@ -1,0 +1,144 @@
+ERROR - 2023-11-19 05:33:05 --> mysqli_sql_exception: Column 'id_pengurus' cannot be null in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus(Array)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-11-19 05:33:05 --> Column 'id_pengurus' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pengurus` (`id_pengurus`, `nama_pengurus`, `jabatan`, `alamat`, `no_hp`) VALUES (:id_pengurus:, :nama_pengurus:, :jabatan:, :alamat:, :no_hp:)', [...], false)
+ 2 APPPATH\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+ERROR - 2023-11-19 05:34:23 --> mysqli_sql_exception: Column 'id_pengurus' cannot be null in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus(Array)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-11-19 05:34:23 --> Column 'id_pengurus' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pengurus` (`id_pengurus`, `nama_pengurus`, `jabatan`, `alamat`, `no_hp`) VALUES (:id_pengurus:, :nama_pengurus:, :jabatan:, :alamat:, :no_hp:)', [...], false)
+ 2 APPPATH\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+ERROR - 2023-11-19 05:38:52 --> mysqli_sql_exception: Column 'id_pengurus' cannot be null in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus(Array)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-11-19 05:38:52 --> Column 'id_pengurus' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pengurus` (`id_pengurus`, `nama_pengurus`, `jabatan`, `alamat`, `no_hp`) VALUES (:id_pengurus:, :nama_pengurus:, :jabatan:, :alamat:, :no_hp:)', [...], false)
+ 2 APPPATH\Models\ModelPengurus.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pengurus.php(26): App\Models\ModelPengurus->savePengurus([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+ERROR - 2023-11-19 06:17:22 --> mysqli_sql_exception: Duplicate entry '3' for key 'PRIMARY' in D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\SEMESTER 5\web2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\SEMESTER 5\web2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\SEMESTER 5\web2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\SEMESTER 5\web2\prak1\app\Models\ModelUser.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\SEMESTER 5\web2\prak1\app\Controllers\User.php(24): App\Models\ModelUser->saveUser(Array)
+#6 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(919): App\Controllers\User->save()
+#7 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\SEMESTER 5\web2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 5\web2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 5\web2\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\w...')
+#11 {main}
+CRITICAL - 2023-11-19 06:17:22 --> Duplicate entry '3' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_user` (`id_user`, `nama_user`, `email`, `password`, `level`) VALUES (:id_user:, :nama_user:, :email:, :password:, :level:)', [...], false)
+ 2 APPPATH\Models\ModelUser.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\User.php(24): App\Models\ModelUser->saveUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-19 17:43:41 --> Undefined variable $row
+in APPPATH\Views\Pengurus\view_Pengurus.php on line 62.
+ 1 APPPATH\Views\Pengurus\view_Pengurus.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/view_pengurus', [], true)
+ 5 APPPATH\Controllers\Pengurus.php(14): view('pengurus/view_pengurus', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-19 17:44:38 --> Undefined variable $row
+in APPPATH\Views\Pengurus\view_Pengurus.php on line 55.
+ 1 APPPATH\Views\Pengurus\view_Pengurus.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/view_pengurus', [], true)
+ 5 APPPATH\Controllers\Pengurus.php(14): view('pengurus/view_pengurus', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-19 17:44:42 --> Undefined variable $row
+in APPPATH\Views\Pengurus\view_Pengurus.php on line 55.
+ 1 APPPATH\Views\Pengurus\view_Pengurus.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/view_pengurus', [], true)
+ 5 APPPATH\Controllers\Pengurus.php(14): view('pengurus/view_pengurus', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-19 18:01:00 --> Undefined array key "idpengurus"
+in APPPATH\Views\Pengurus\view_Pengurus.php on line 62.
+ 1 APPPATH\Views\Pengurus\view_Pengurus.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpengurus"', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\Pengurus\\view_Pengurus.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/view_pengurus', [], true)
+ 5 APPPATH\Controllers\Pengurus.php(14): view('pengurus/view_pengurus', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')

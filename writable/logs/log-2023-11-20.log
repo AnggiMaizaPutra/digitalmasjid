@@ -1,0 +1,24 @@
+CRITICAL - 2023-11-20 07:01:57 --> Undefined variable $pengurus
+in APPPATH\Views\User\view_user.php on line 49.
+ 1 APPPATH\Views\User\view_user.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengurus', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-20 07:02:37 --> Undefined array key "nama_users"
+in APPPATH\Views\User\view_user.php on line 54.
+ 1 APPPATH\Views\User\view_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_users"', 'D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\SEMESTER 5\\web2\\prak1\\app\\Views\\User\\view_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/view_user', [], true)
+ 5 APPPATH\Controllers\User.php(12): view('user/view_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 5\\web2\\prak1\\public\\index.php')

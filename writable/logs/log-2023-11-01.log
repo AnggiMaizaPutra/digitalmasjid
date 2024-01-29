@@ -1,0 +1,227 @@
+CRITICAL - 2023-11-01 04:05:40 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web 2\\prak1\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+CRITICAL - 2023-11-01 04:08:35 --> syntax error, unexpected variable "$db"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web 2\\prak1\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+ERROR - 2023-11-01 04:13:41 --> mysqli_sql_exception: MySQL server has gone away in E:\web 2\prak1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\web 2\prak1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 E:\web 2\prak1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#10 {main}
+CRITICAL - 2023-11-01 04:13:41 --> MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+ERROR - 2023-11-01 04:17:31 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\web 2\prak1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbstmik', 3306, '', 0)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#3 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#5 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#9 {main}
+CRITICAL - 2023-11-01 04:17:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbstmik'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 3 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+ERROR - 2023-11-01 04:18:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\web 2\prak1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbstmik', 3306, '', 0)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#3 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#5 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#9 {main}
+CRITICAL - 2023-11-01 04:18:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbstmik'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 3 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+ERROR - 2023-11-01 04:21:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 E:\web 2\prak1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbstmik', 3306, '', 0)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbstmik' in E:\web 2\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\web 2\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\web 2\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\web 2\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#3 E:\web 2\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 E:\web 2\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#5 E:\web 2\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\web 2\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\web 2\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 E:\web 2\prak1\system\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\...')
+#9 {main}
+CRITICAL - 2023-11-01 04:21:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbstmik'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 3 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\web 2\\prak1\\public\\index.php')
+ERROR - 2023-11-01 07:13:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'web27' in D:\2110067\prak1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\2110067\prak1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'web27', 3306, '', 0)
+#1 D:\2110067\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\2110067\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\2110067\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 D:\2110067\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\2110067\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 D:\2110067\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\2110067\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\2110067\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\2110067\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'web27' in D:\2110067\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\2110067\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\2110067\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\2110067\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#3 D:\2110067\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 D:\2110067\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#5 D:\2110067\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\2110067\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\2110067\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\2110067\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak...')
+#9 {main}
+CRITICAL - 2023-11-01 07:13:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'web27'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 3 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak1\\public\\index.php')
+ERROR - 2023-11-01 07:15:23 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'web27' in D:\2110067\prak1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\2110067\prak1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'web27', 3306, '', 0)
+#1 D:\2110067\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\2110067\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\2110067\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 D:\2110067\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\2110067\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 D:\2110067\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\2110067\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\2110067\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\2110067\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'web27' in D:\2110067\prak1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\2110067\prak1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\2110067\prak1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\2110067\prak1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#3 D:\2110067\prak1\app\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 D:\2110067\prak1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#5 D:\2110067\prak1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\2110067\prak1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\2110067\prak1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 D:\2110067\prak1\system\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak...')
+#9 {main}
+CRITICAL - 2023-11-01 07:15:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'web27'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 3 APPPATH\Controllers\Home.php(65): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\2110067\\prak1\\public\\index.php')
